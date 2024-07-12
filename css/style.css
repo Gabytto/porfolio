@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1.5rem;
+}
+body{
+    background-color: gainsboro;
+}
+
+/*########### HEADER ############*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: orange;
+    color: white;   
+}
+
+.boton-nav {
+    padding: 1rem;
+    background-color: rgb(255, 102, 0);
+    border-radius: 12.5%;
+    border: 1px, solid;
+    border-color: orangered;
+}
+.boton-nav:hover {
+    transform: scale(1.2);
+    background-color: lightcoral;
+}
+
+/*############ MAIN ############*/
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-content {
+    background-color: rgb(255, 251, 251);
+    height: 80vh;
+    width: 80vw;
+}
+
+/*############ FOOTER ############*/
+
+.footer{
+    display: flex;
+    background-color: orange;
+    height: 4rem;
+}
