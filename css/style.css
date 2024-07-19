@@ -17,7 +17,7 @@ ol {
   padding-right: 1.5rem;
 }
 h3 {
-  font-size: large;
+  font-size: 2rem;
   font-family: var(--primary-font);
 }
 body {
@@ -55,7 +55,7 @@ nav {
 .boton-nav {
   padding: 1rem;
   background: linear-gradient(to left top, orange, wheat);
-  background-color: white;   
+  background-color: white;
   text-decoration: none;
   color: black;
   font-weight: 650;
@@ -72,14 +72,15 @@ nav {
 
 /*############ MAIN ############*/
 
-h3, p {
+h3,
+p {
   text-align: center;
 }
 
 .acerca-de-mi {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
 }
 
 main {
@@ -94,8 +95,8 @@ main {
   width: 80vw;
 }
 .tarjeta-main {
-  background-color:#f5f1dc;
-  height:max-content;
+  background-color: #f5f1dc;
+  height: max-content;
   width: 60rem;
   margin-top: 3rem;
   padding: 2rem;
