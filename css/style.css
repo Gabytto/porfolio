@@ -63,6 +63,7 @@ nav {
 .boton-nav--activo {
   transform: scale(1.1);
   background: linear-gradient(to left top, wheat, orange);
+  box-shadow: 2px 2.5px 2px 2.5px rgba(0, 0, 0, 0.2);
 }
 .boton-nav:hover {
   transform: scale(1.1);
@@ -110,6 +111,15 @@ main {
   display: flex;
   background-color: orange;
   height: 4rem;
+  box-shadow: 2px -2.5px 2px 2.5px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  font-family: var(--secondary-font);
+}
+.contanto-footer {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /*############# OTROS ############*/
